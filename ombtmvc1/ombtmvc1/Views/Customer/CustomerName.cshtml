@@ -1,0 +1,20 @@
+﻿@model IEnumerable<ombtmvc1.Models.Customer>
+
+@using ombtmvc1.Models;
+
+@{ ViewBag.Title = "CustomerName"; }
+<div style="font-family:Times New Roman">
+    <h2>CustomerName</h2>
+    <ul>
+        @foreach (Customer c in @Model)
+        {
+<li>
+    @Html.ActionLink(c.Name, "Details", new { id = c.CustomerId })
+</li>
+}
+    </ul>
+</div>
+<p>
+    <a href="@Url.Action("AdminDash","Admin")"
+       class="btn btn-primary btn-lg">Back</a>
+</p>

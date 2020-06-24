@@ -1,0 +1,61 @@
+﻿@model IEnumerable<ombtmvc1.Models.Cart>
+
+@{ ViewBag.Title = "proceed"; }
+
+<h2>proceed</h2>
+
+<form>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MovieName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SeatNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Amnt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MovieId)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.MovieName)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.SeatNo)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.CustomerId)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Date)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Amnt)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.MovieId)
+    </td>
+</tr>}
+
+    </table>
+    <div>
+        Total = @Model.Sum(i => i.Amnt)
+    </div>
+    <div>
+        @Html.ActionLink(" Make Payment", "Payment")
+    </div>
+</form>

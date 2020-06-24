@@ -1,0 +1,7 @@
+C:\Users\madhu\source\repos\onlineMovieTicketBooking\onlineMovieTicketBooking\bin\Debug\onlineMovieTicketBooking.exe.config
+C:\Users\madhu\source\repos\onlineMovieTicketBooking\onlineMovieTicketBooking\bin\Debug\onlineMovieTicketBooking.exe
+C:\Users\madhu\source\repos\onlineMovieTicketBooking\onlineMovieTicketBooking\bin\Debug\onlineMovieTicketBooking.pdb
+C:\Users\madhu\source\repos\onlineMovieTicketBooking\onlineMovieTicketBooking\obj\Debug\onlineMovieTicketBooking.csprojAssemblyReference.cache
+C:\Users\madhu\source\repos\onlineMovieTicketBooking\onlineMovieTicketBooking\obj\Debug\onlineMovieTicketBooking.csproj.CoreCompileInputs.cache
+C:\Users\madhu\source\repos\onlineMovieTicketBooking\onlineMovieTicketBooking\obj\Debug\onlineMovieTicketBooking.exe
+C:\Users\madhu\source\repos\onlineMovieTicketBooking\onlineMovieTicketBooking\obj\Debug\onlineMovieTicketBooking.pdb

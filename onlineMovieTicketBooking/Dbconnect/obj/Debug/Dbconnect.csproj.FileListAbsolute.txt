@@ -1,0 +1,7 @@
+C:\Users\madhu\source\repos\onlineMovieTicketBooking\Dbconnect\bin\Debug\Dbconnect.exe.config
+C:\Users\madhu\source\repos\onlineMovieTicketBooking\Dbconnect\bin\Debug\Dbconnect.exe
+C:\Users\madhu\source\repos\onlineMovieTicketBooking\Dbconnect\bin\Debug\Dbconnect.pdb
+C:\Users\madhu\source\repos\onlineMovieTicketBooking\Dbconnect\obj\Debug\Dbconnect.csprojAssemblyReference.cache
+C:\Users\madhu\source\repos\onlineMovieTicketBooking\Dbconnect\obj\Debug\Dbconnect.csproj.CoreCompileInputs.cache
+C:\Users\madhu\source\repos\onlineMovieTicketBooking\Dbconnect\obj\Debug\Dbconnect.exe
+C:\Users\madhu\source\repos\onlineMovieTicketBooking\Dbconnect\obj\Debug\Dbconnect.pdb

@@ -1,0 +1,16 @@
+﻿@model IEnumerable<ombtmvc1.Models.Movie>
+
+@using ombtmvc1.Models;
+
+@{ ViewBag.Title = "List of Movies"; }
+<div style="font-family:Times New Roman">
+    <h2>Movies</h2>
+    <ul>
+        @foreach (Movie m in @Model)
+        {
+<li>
+
+    @Html.ActionLink(m.Movie_Name, "ViewMovies", new { id = m.Movie_Id })
+</li>}
+    </ul>
+</div>

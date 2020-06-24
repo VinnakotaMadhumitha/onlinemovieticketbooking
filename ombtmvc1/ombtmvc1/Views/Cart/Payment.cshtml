@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Payment";
+}
+
+<h2>Payment</h2>
+<h3>
+    Your Payment is @TempData["Total"].ToString();
+</h3>
+
+<p>
+    <a href="@Url.Action("QRcode","Ticket")"
+       class="btn btn-primary btn-lg">Qrcode</a>
+
+</p>
+

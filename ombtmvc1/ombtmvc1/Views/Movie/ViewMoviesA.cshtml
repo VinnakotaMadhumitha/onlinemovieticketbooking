@@ -1,0 +1,79 @@
+﻿@model ombtmvc1.Models.Movie
+
+@{ ViewBag.Title = "ViewMovies"; }
+
+
+<h2>ViewMovies</h2>
+
+<div>
+    <h4>Movie</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Movie_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Movie_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Movie_language)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Movie_language)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Movie_location)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Movie_location)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Movie_gener)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Movie_gener)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Movie_time)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Movie_time)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Movie_Imagepath)
+        </dt>
+
+        <dd>
+            <img src="@Url.Content(Model.Movie_Imagepath)" width="250" height=" 250" />
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Atickets)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Atickets)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Movie_Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Movie_Description)
+        </dd>
+    </dl>
+</div>
+<p>
+
+    @Html.ActionLink("Back to List", "MovieListAdmin")
+</p>
